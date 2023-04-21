@@ -20,7 +20,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   distDir: 'docs',
-  basePath: '/docs',
+  basePath: '/alex-blog',
   trailingSlash: true,
 }
 
