@@ -18,6 +18,9 @@ const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   // Optionally, add any other Next.js config below
   reactStrictMode: true,
+  output: 'export',
+  distDir: 'dist',
+  trailingSlash: true,
 }
 
 // Merge MDX config with Next.js config
